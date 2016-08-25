@@ -2,4 +2,5 @@
 
 ## 01 - Jeu de devinette
 
-Vous devez trouver un nombre compris entre 1 et 100 (en 6 essais maximum)
+Vous devez trouver un nombre compris entre 1 et 100 (en 6 essais maximum).
+Ouvrir la console pour l'affichage du jeu.
