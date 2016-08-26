@@ -24,12 +24,12 @@ var tentativeMax = 6;
 console.log('Vous devez trouver un nombre compris entre 1 et 100 (en 6 essais maximum).');
 
 while ((nombre !== solution) && (tentative < tentativeMax)) {
-
+  
   // Demander un nombre
   nombre = Number(prompt("Entrez un nombre (entre 0 et 100) :"));
   // Incrémente le compteur de tentative
   tentative++;
-
+  
   // Verification du nombre saisi répond au critères
   if ((nombre < 0 ) || (nombre > 100) || isNaN(nombreSaisi)) {
     console.log("ERREUR : votre proposition doit être comprise entre 0 et 100");
@@ -40,7 +40,7 @@ while ((nombre !== solution) && (tentative < tentativeMax)) {
   else if (nombre < solution) {
     console.log(nombre + " est trop petit");
   }
-
+  
 }
 // Le nombre est trouvé
 if (nombre === solution ) {
