@@ -1,4 +1,4 @@
-/* 
+/*
 Activité : jeu de devinette
 */
 
@@ -20,7 +20,7 @@ var nombre = 0;
 var tentative = 0;
 var tentativeMax = 6;
 
-// Affichage règle du jeu de devinette 
+// Affichage règle du jeu de devinette
 console.log('Vous devez trouver un nombre compris entre 1 et 100 (en 6 essais maximum).');
 
 while ((nombre !== solution) && (tentative < tentativeMax)) {
@@ -30,7 +30,11 @@ while ((nombre !== solution) && (tentative < tentativeMax)) {
   // Incrémente le compteur de tentative
   tentative++;
 
-  if (nombre > solution) {
+  // Verification du nombre saisi répond au critères
+  if ((nombre < 0 ) || (nombre > 100) || isNaN(nombreSaisi)) {
+    console.log("ERREUR : votre proposition doit être comprise entre 0 et 100");
+  }
+  else if (nombre > solution) {
     console.log(nombre + " est trop grand");
   }
   else if (nombre < solution) {
