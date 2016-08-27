@@ -23,7 +23,8 @@ var tentativeMax = 6;
 // Affichage règle du jeu de devinette
 console.log('Vous devez trouver un nombre compris entre 1 et 100 (en 6 essais maximum).');
 
-while ((nombre !== solution) && (tentative < tentativeMax)) {
+while ((nombre !== solution) && (tentative < tentativeMax))
+{
   
   // Demander un nombre
   nombre = Number(prompt("Entrez un nombre (entre 0 et 100) :"));
@@ -31,23 +32,28 @@ while ((nombre !== solution) && (tentative < tentativeMax)) {
   tentative++;
   
   // Verification du nombre saisi répond au critères
-  if ((nombre < 0 ) || (nombre > 100) || isNaN(nombreSaisi)) {
+  if ((nombre < 0 ) || (nombre > 100) || isNaN(nombreSaisi))
+  {
     console.log("ERREUR : votre proposition doit être comprise entre 0 et 100");
   }
-  else if (nombre > solution) {
+  else if (nombre > solution)
+  {
     console.log(nombre + " est trop grand");
   }
-  else if (nombre < solution) {
+  else if (nombre < solution)
+  {
     console.log(nombre + " est trop petit");
   }
   
 }
 // Le nombre est trouvé
-if (nombre === solution ) {
+if (nombre === solution )
+{
   console.log("Bravo ! La solution était : " + solution);
 }
 // Nombre de tentative est dépassé
-else {
+else
+{
   console.log('Désolé, vous avez perdu. Vous avez utilisé vos ' + tentative + ' essais.');
   console.log('La solution était ' + solution + '.');
 }
