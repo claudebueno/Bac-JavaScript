@@ -2,13 +2,21 @@
 
 ## ACTIVITES
 
-### Jeu de devinette
+### 01 - Jeu de devinette
 
 Vous devez trouver un nombre compris entre 1 et 100 (en 6 essais maximum).
 Ouvrir la console pour l'affichage du jeu.
 
 #### Correction OC
 Votre activité "Créez un mini-jeu de devinette" est désormais entièrement corrigée. Toutes nos félicitations, vous avez obtenu un score de 100 % !
+
+### 02 - Gestionnaire de contacts
+
+L’objectif de cette activité est d’écrire un petit gestionnaire de contacts dans le fichier contacts.js.
+
+#### Correction OC
+
+
 
 ## CHAPITRE 3
 
