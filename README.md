@@ -17,10 +17,17 @@ Ainsi il ne fera pas la différence entre MARDI et Mardi et pourra apporter une 
 
 ## Tournez manège
 
-
+Vous devez saisir un chiffre du nombre de tour de manège que vous souhaitez effectuer.
+Le programme fait faire autant de tours de manège en affichant un message à chaque tour.
 
 ## Nombres pairs et impairs
 
 Le programme affiche si un nombre est pair ou impair.
 
-Utilisation d'une boucle pour afficher tous les nombre entre 1 et le chiffre que vous avez saisi. 
+Utilisation d'une boucle pour afficher tous les nombre entre 1 et le chiffre que vous avez saisi.
+
+## Table de multiplication
+
+Le programme affiche la table de multiplication du chiffre choisi par l'utilisateur.
+
+L'affichage ne s'effectue pas sur la console mais directement sur la page HTML
