@@ -14,3 +14,13 @@ Vous devez saisir un jour de la semaine et le programme affichera le jour suivan
 
 J'ai optimisé le programme pour qu'il transforme toutes les saisies en minuscules.
 Ainsi il ne fera pas la différence entre MARDI et Mardi et pourra apporter une réponse au lien de retourner "Je n'ai pas compris !".
+
+## Tournez manège
+
+
+
+## Nombres pairs et impairs
+
+Le programme affiche si un nombre est pair ou impair.
+
+Utilisation d'une boucle pour afficher tous les nombre entre 1 et le chiffre que vous avez saisi. 
