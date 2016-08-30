@@ -45,3 +45,21 @@ Utilisation d'une boucle pour afficher tous les nombre entre 1 et le chiffre que
 Le programme affiche la table de multiplication du chiffre choisi par l'utilisateur.
 
 L'affichage ne s'effectue pas sur la console mais directement sur la page HTML
+
+## CHAPITRE 5
+
+### Dire bonjour
+
+Dire bonjour grâce à une fonction en tenant compte du nom et prénom saisi par l'utilisateur.
+
+## CHAPITRE 7
+
+### Jeu de rôle
+
+Gestion des personnages d'un jeu de rôle grâce à la POO (Programmation Orientée Objet).
+
+## CHAPITRE 8
+
+### Jeu de rôle
+
+Jeu de rôle amélioré. Utilisation d'un prototype pour gérer les personnages.
