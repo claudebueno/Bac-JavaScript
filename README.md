@@ -1,4 +1,4 @@
-# BAC A JAVASCRIPT
+# APPRENEZ À CODER AVEC JAVASCRIPT 
 
 ## ACTIVITES
 
@@ -67,3 +67,8 @@ Jeu de rôle amélioré. Utilisation d'un prototype pour gérer les personnages.
 ## CHAPITRE 9
 
 Collection de films : utilisation des tableaux pour gérer une collection de films.
+
+
+# CRÉEZ DES PAGES WEB INTERACTIVES AVEC JAVASCRIPT
+
+##
